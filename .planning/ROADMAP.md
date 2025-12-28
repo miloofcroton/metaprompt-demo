@@ -1,48 +1,19 @@
 # Roadmap: Todo App
 
-## Overview
+## Current Milestone
 
-Build a simple React todo app in two phases: first establish the project foundation with Vite, React Router, and shell/page architecture, then implement the todo list functionality with basic CRUD operations.
+No active milestone. See MILESTONES.md for completed work.
 
-## Domain Expertise
+## Completed Milestones
 
-None
+### v1.0 — MVP Todo App (2025-12-28)
 
-## Phases
+Simple React todo application with Vite and React Router. Features shell/page architecture with navigation, welcome page, and functional todo list.
 
-**Phase Numbering:**
-- Integer phases (1, 2, 3): Planned milestone work
-- Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
+- Phase 1: Foundation — Vite + React + TypeScript with shell/page architecture
+- Phase 2: Todo Feature — Todo list with add, toggle, delete
 
-- [x] **Phase 1: Foundation** — Vite + React + TypeScript setup with React Router and shell/page architecture
-- [x] **Phase 2: Todo Feature** — Todo list page with add, toggle, delete functionality
+Archive: `.planning/milestones/v1.0-ROADMAP.md`
 
-## Phase Details
-
-### Phase 1: Foundation
-**Goal**: Working Vite + React + TypeScript project with React Router, shell component with nav bar, and welcome page at root
-**Depends on**: Nothing (first phase)
-**Research**: Unlikely (standard Vite + React Router setup)
-**Plans**: TBD
-
-Plans:
-- [x] 01-01: Project setup and shell/page architecture
-
-### Phase 2: Todo Feature
-**Goal**: Functional todo list at /todo with add, checkbox toggle, and delete
-**Depends on**: Phase 1
-**Research**: Unlikely (basic React state management)
-**Plans**: TBD
-
-Plans:
-- [x] 02-01: Todo list implementation
-
-## Progress
-
-**Execution Order:**
-Phases execute in numeric order: 1 → 2
-
-| Phase | Plans Complete | Status | Completed |
-|-------|----------------|--------|-----------|
-| 1. Foundation | 1/1 | Complete | 2025-12-28 |
-| 2. Todo Feature | 1/1 | Complete | 2025-12-28 |
+---
+*Last updated: 2025-12-28 after v1.0 completion*

@@ -5,55 +5,27 @@
 See: .planning/PROJECT.md (updated 2025-12-28)
 
 **Core value:** A clean, working example of React Router with shell-based layout and basic CRUD state management — small and focused.
-**Current focus:** Phase 2 — Todo Feature
+**Current focus:** None — milestone complete
 
 ## Current Position
 
-Phase: 2 of 2 (Todo Feature)
-Plan: 1 of 1 in current phase
-Status: Milestone complete
-Last activity: 2025-12-28 — Completed 02-01-PLAN.md
+Milestone: v1.0 complete
+Status: No active work
+Last activity: 2025-12-28 — v1.0 milestone archived
 
-Progress: ██████████ 100%
+## Completed Milestones
 
-## Performance Metrics
+### v1.0 — MVP Todo App
 
-**Velocity:**
-- Total plans completed: 2
-- Average duration: 5 min
-- Total execution time: 0.17 hours
+- Phases: 2
+- Plans: 2
+- Duration: ~10 min total
+- Completed: 2025-12-28
 
-**By Phase:**
-
-| Phase | Plans | Total | Avg/Plan |
-|-------|-------|-------|----------|
-| 1. Foundation | 1 | 8 min | 8 min |
-| 2. Todo Feature | 1 | 2 min | 2 min |
-
-**Recent Trend:**
-- Last 5 plans: 8 min, 2 min
-- Trend: Improving
-
-## Accumulated Context
-
-### Decisions
-
-Decisions are logged in PROJECT.md Key Decisions table.
-Recent decisions affecting current work:
-
-- Phase 1: Used createBrowserRouter pattern (React Router v6 recommended)
-- Phase 2: Used Date.now() for unique todo IDs, inline styles for simplicity
-
-### Deferred Issues
-
-None yet.
-
-### Blockers/Concerns
-
-None yet.
+See: `.planning/MILESTONES.md` for details
 
 ## Session Continuity
 
 Last session: 2025-12-28
-Stopped at: Milestone complete — all phases finished
+Stopped at: v1.0 milestone complete and archived
 Resume file: None

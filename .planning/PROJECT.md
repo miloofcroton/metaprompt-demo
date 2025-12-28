@@ -12,17 +12,17 @@ A clean, working example of React Router with shell-based layout and basic CRUD 
 
 ### Validated
 
-(None yet — ship to validate)
+- ✓ Vite + React + TypeScript project setup — v1.0
+- ✓ React Router with two routes: `/` (welcome) and `/todo` (todo list) — v1.0
+- ✓ Shell component with navigation menu bar — v1.0
+- ✓ Page content component rendering inside the shell — v1.0
+- ✓ Welcome page with link to todo app — v1.0
+- ✓ Todo list with add, toggle complete (checkbox), and delete functionality — v1.0
+- ✓ Todo state managed in React state — v1.0
 
 ### Active
 
-- [ ] Vite + React + TypeScript project setup
-- [ ] React Router with two routes: `/` (welcome) and `/todo` (todo list)
-- [ ] Shell component with navigation menu bar
-- [ ] Page content component rendering inside the shell
-- [ ] Welcome page with link to todo app
-- [ ] Todo list with add, toggle complete (checkbox), and delete functionality
-- [ ] Todo state managed in React state
+(None — milestone complete)
 
 ### Out of Scope
 
@@ -42,9 +42,11 @@ Greenfield project starting fresh. The architecture pattern of shell + page cont
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Shell/page architecture | Separates navigation concerns from page content | — Pending |
-| In-memory state only | Keeps v1 simple, persistence can be added later | — Pending |
-| TypeScript | Type safety from the start | — Pending |
+| Shell/page architecture | Separates navigation concerns from page content | ✓ Clean separation achieved |
+| In-memory state only | Keeps v1 simple, persistence can be added later | ✓ Works as expected |
+| TypeScript | Type safety from the start | ✓ Full type coverage |
+| createBrowserRouter | React Router v6 recommended pattern | ✓ Standard approach |
+| Date.now() for IDs | Simple unique ID generation for in-memory state | ✓ Sufficient for scope |
 
 ---
-*Last updated: 2025-12-28 after initialization*
+*Last updated: 2025-12-28 after v1.0 milestone completion*
