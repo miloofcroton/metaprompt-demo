@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(gsd:new-project)",
+      "Bash([ -f .planning/PROJECT.md ])",
+      "Bash(if [ -d .git ])",
+      "Bash([ -f .git ])",
+      "Bash(then echo \"Git repo exists in current directory\")",
+      "Bash(else git init)",
+      "Bash(fi)",
+      "Bash(mkdir:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash({ echo \"ERROR: No PROJECT.md found. Run /gsd:new-project first.\")",
+      "Bash(exit 1)",
+      "Bash(})",
+      "Bash([ -f .planning/ROADMAP.md ])",
+      "Bash(cat:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}
