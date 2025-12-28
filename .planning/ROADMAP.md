@@ -14,7 +14,7 @@ None
 - Integer phases (1, 2, 3): Planned milestone work
 - Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
 
-- [ ] **Phase 1: Foundation** — Vite + React + TypeScript setup with React Router and shell/page architecture
+- [x] **Phase 1: Foundation** — Vite + React + TypeScript setup with React Router and shell/page architecture
 - [ ] **Phase 2: Todo Feature** — Todo list page with add, toggle, delete functionality
 
 ## Phase Details
@@ -26,7 +26,7 @@ None
 **Plans**: TBD
 
 Plans:
-- [ ] 01-01: Project setup and shell/page architecture
+- [x] 01-01: Project setup and shell/page architecture
 
 ### Phase 2: Todo Feature
 **Goal**: Functional todo list at /todo with add, checkbox toggle, and delete
@@ -44,5 +44,5 @@ Phases execute in numeric order: 1 → 2
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/1 | Not started | - |
+| 1. Foundation | 1/1 | Complete | 2025-12-28 |
 | 2. Todo Feature | 0/1 | Not started | - |
